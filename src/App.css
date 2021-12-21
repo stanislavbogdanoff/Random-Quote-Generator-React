@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #6e61e2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+:root {
+  --mainColor: #08a0e9;
+  --secColor: #0084B4;
+}
+#quote-box {
+  background-color: #fff;
+  width: 40%;
+  margin: 10rem auto;
+  padding: 5rem;
+  border-radius: 10px;
+}
+#text > p {
+  font-size: 24px;
+}
+#author {
+  font-size: 16px;
+  text-align: end;
+  margin: 1rem 0 2rem;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#new-quote {
+  color: #fff;
+  background-color: var(--mainColor);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+#new-quote:hover {
+  background-color: var(--secColor);
+}
+#tweet-quote {
+  width: 30px;
+  height: 30px;
+  background-color: var(--mainColor);
+  padding: 5px;
+  border-radius: 5px;
+}
+#tweet-quote:hover {
+  background-color: var(--secColor);
+}
+#tweet-icon {
+  width: fit-content;
+  height: fit-content;
+}
